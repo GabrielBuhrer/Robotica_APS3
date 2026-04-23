@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.001995] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.003559] (-) JobUnselected: {'identifier': 'patrol_bot'}
+[0.005179] (-) JobUnselected: {'identifier': 'rm_description'}
+[0.006036] (rm_localization) JobQueued: {'identifier': 'rm_localization', 'dependencies': OrderedDict()}
+[0.006730] (rm_localization) JobStarted: {'identifier': 'rm_localization'}
+[0.099034] (-) TimerEvent: {}
+[0.199739] (-) TimerEvent: {}
+[0.300456] (-) TimerEvent: {}
+[0.401570] (-) TimerEvent: {}
+[0.502456] (-) TimerEvent: {}
+[0.602972] (-) TimerEvent: {}
+[0.703499] (-) TimerEvent: {}
+[0.804193] (-) TimerEvent: {}
+[0.905084] (-) TimerEvent: {}
+[1.006190] (-) TimerEvent: {}
+[1.107155] (-) TimerEvent: {}
+[1.207710] (-) TimerEvent: {}
+[1.308320] (-) TimerEvent: {}
+[1.408865] (-) TimerEvent: {}
+[1.509504] (-) TimerEvent: {}
+[1.610444] (-) TimerEvent: {}
+[1.711364] (-) TimerEvent: {}
+[1.812566] (-) TimerEvent: {}
+[1.913486] (-) TimerEvent: {}
+[2.014232] (-) TimerEvent: {}
+[2.115058] (-) TimerEvent: {}
+[2.215866] (-) TimerEvent: {}
+[2.316503] (-) TimerEvent: {}
+[2.417738] (-) TimerEvent: {}
+[2.518362] (-) TimerEvent: {}
+[2.619080] (-) TimerEvent: {}
+[2.719852] (-) TimerEvent: {}
+[2.820884] (-) TimerEvent: {}
+[2.921748] (-) TimerEvent: {}
+[3.022591] (-) TimerEvent: {}
+[3.123134] (-) TimerEvent: {}
+[3.223470] (-) TimerEvent: {}
+[3.323983] (-) TimerEvent: {}
+[3.424547] (-) TimerEvent: {}
+[3.442710] (rm_localization) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rm_localization', 'build', '--build-base', '/home/gabriel/Robotica/Robotica_APS3/build/rm_localization/build', 'install', '--record', '/home/gabriel/Robotica/Robotica_APS3/build/rm_localization/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gabriel/Robotica/Robotica_APS3/src/rm_localization', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'gabriel', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib::/home/gabriel/intelFPGA_lite/20.1/modelsim_ase/lib32', 'HOME': '/home/gabriel', 'OLDPWD': '/home/gabriel/Robotica/Robotica_APS3/src/rm_localization', 'VUNIT_SIMULATOR': 'modelsim', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3313', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QSYS_ROOTDIR': '/home/gabriel/intelFPGA_lite/20.1/quartus/sopc_builder/bin', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gabriel', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gabriel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/gabriel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/gabriel/intelFPGA_lite/20.1/quartus/bin:/home/gabriel/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/:/home/gabriel/intelFPGA_lite/20.1/modelsim_ase/lib32', 'SESSION_MANAGER': 'local/gabriel-Inspiron-15-3530:@/tmp/.ICE-unix/3263,unix/gabriel-Inspiron-15-3530:/tmp/.ICE-unix/3263', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/160d9cdc_a058_402f_85ab_48cef3633a2c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ALTERAPATH': '/home/gabriel/intelFPGA_lite/20.1', 'QT_ACCESSIBILITY': '1', 'VUNIT_MODELSIM_PATH': '/home/gabriel/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gabriel/Robotica/Robotica_APS3/build/rm_localization', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/gabriel/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gabriel/Robotica/Robotica_APS3/build/rm_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.524852] (-) TimerEvent: {}
+[3.625539] (-) TimerEvent: {}
+[3.726035] (-) TimerEvent: {}
+[3.826565] (-) TimerEvent: {}
+[3.927489] (-) TimerEvent: {}
+[4.028323] (-) TimerEvent: {}
+[4.129091] (-) TimerEvent: {}
+[4.229859] (-) TimerEvent: {}
+[4.330553] (-) TimerEvent: {}
+[4.431268] (-) TimerEvent: {}
+[4.514968] (rm_localization) StdoutLine: {'line': b'running egg_info\n'}
+[4.531389] (-) TimerEvent: {}
+[4.586311] (rm_localization) StdoutLine: {'line': b'writing ../../build/rm_localization/rm_localization.egg-info/PKG-INFO\n'}
+[4.586956] (rm_localization) StdoutLine: {'line': b'writing dependency_links to ../../build/rm_localization/rm_localization.egg-info/dependency_links.txt\n'}
+[4.587554] (rm_localization) StdoutLine: {'line': b'writing requirements to ../../build/rm_localization/rm_localization.egg-info/requires.txt\n'}
+[4.587887] (rm_localization) StdoutLine: {'line': b'writing top-level names to ../../build/rm_localization/rm_localization.egg-info/top_level.txt\n'}
+[4.631638] (-) TimerEvent: {}
+[4.732436] (-) TimerEvent: {}
+[4.742964] (rm_localization) StdoutLine: {'line': b"reading manifest file '../../build/rm_localization/rm_localization.egg-info/SOURCES.txt'\n"}
+[4.746432] (rm_localization) StdoutLine: {'line': b"writing manifest file '../../build/rm_localization/rm_localization.egg-info/SOURCES.txt'\n"}
+[4.746801] (rm_localization) StdoutLine: {'line': b'running build\n'}
+[4.746978] (rm_localization) StdoutLine: {'line': b'running build_py\n'}
+[4.747505] (rm_localization) StdoutLine: {'line': b'running install\n'}
+[4.765134] (rm_localization) StdoutLine: {'line': b'running install_lib\n'}
+[4.808548] (rm_localization) StdoutLine: {'line': b'running install_data\n'}
+[4.809722] (rm_localization) StdoutLine: {'line': b'copying config/slam_toolbox.yaml -> /home/gabriel/Robotica/Robotica_APS3/install/rm_localization/share/rm_localization/config\n'}
+[4.810323] (rm_localization) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.832743] (-) TimerEvent: {}
+[4.895836] (rm_localization) StdoutLine: {'line': b"removing '/home/gabriel/Robotica/Robotica_APS3/install/rm_localization/lib/python3.12/site-packages/rm_localization-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.906719] (rm_localization) StdoutLine: {'line': b'Copying ../../build/rm_localization/rm_localization.egg-info to /home/gabriel/Robotica/Robotica_APS3/install/rm_localization/lib/python3.12/site-packages/rm_localization-0.0.0-py3.12.egg-info\n'}
+[4.909506] (rm_localization) StdoutLine: {'line': b'running install_scripts\n'}
+[4.932992] (-) TimerEvent: {}
+[5.033922] (-) TimerEvent: {}
+[5.134719] (-) TimerEvent: {}
+[5.235374] (-) TimerEvent: {}
+[5.336087] (-) TimerEvent: {}
+[5.436857] (-) TimerEvent: {}
+[5.469456] (rm_localization) StdoutLine: {'line': b"writing list of installed files to '/home/gabriel/Robotica/Robotica_APS3/build/rm_localization/install.log'\n"}
+[5.537188] (-) TimerEvent: {}
+[5.623105] (rm_localization) CommandEnded: {'returncode': 0}
+[5.637434] (-) TimerEvent: {}
+[5.669724] (rm_localization) JobEnded: {'identifier': 'rm_localization', 'rc': 0}
+[5.673755] (-) EventReactorShutdown: {}

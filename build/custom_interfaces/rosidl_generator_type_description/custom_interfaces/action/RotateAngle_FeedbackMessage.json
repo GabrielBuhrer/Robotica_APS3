@@ -1,0 +1,75 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_interfaces/action/RotateAngle_FeedbackMessage",
+      "fields": [
+        {
+          "name": "goal_id",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "unique_identifier_msgs/msg/UUID"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_interfaces/action/RotateAngle_Feedback"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_Feedback",
+        "fields": [
+          {
+            "name": "degrees_remaining",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_FeedbackMessage",
+      "hash_string": "RIHS01_f37ed786f1954a4627b5c9a532aa3e597a4dc9e476336308086a2d32e641ef66"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_Feedback",
+      "hash_string": "RIHS01_5d7b456103fd0704383de9180ae45d62507d03074a3e7d3963eb719f2eed4529"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

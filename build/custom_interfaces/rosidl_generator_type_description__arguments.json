@@ -1,0 +1,13 @@
+{
+  "package_name": "custom_interfaces",
+  "output_dir": "/home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces/rosidl_generator_type_description/custom_interfaces",
+  "idl_tuples": [
+    "/home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces/rosidl_adapter/custom_interfaces:action/RotateAngle.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

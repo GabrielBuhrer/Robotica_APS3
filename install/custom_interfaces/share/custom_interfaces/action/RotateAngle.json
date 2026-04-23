@@ -1,0 +1,522 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_interfaces/action/RotateAngle",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_interfaces/action/RotateAngle_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_interfaces/action/RotateAngle_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_interfaces/action/RotateAngle_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_interfaces/action/RotateAngle_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_interfaces/action/RotateAngle_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_interfaces/action/RotateAngle_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_Feedback",
+        "fields": [
+          {
+            "name": "degrees_remaining",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_Goal",
+        "fields": [
+          {
+            "name": "degrees",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_interfaces/action/RotateAngle_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_interfaces/action/RotateAngle_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_interfaces/action/RotateAngle",
+      "hash_string": "RIHS01_d6c9eeac4c32d624c50161162a14e01b6dbd74d39080d7acf7e89a20c8df344b"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_Feedback",
+      "hash_string": "RIHS01_5d7b456103fd0704383de9180ae45d62507d03074a3e7d3963eb719f2eed4529"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_FeedbackMessage",
+      "hash_string": "RIHS01_f37ed786f1954a4627b5c9a532aa3e597a4dc9e476336308086a2d32e641ef66"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_GetResult",
+      "hash_string": "RIHS01_1e177da55ab4cfe9b2f7169801ae2fed2a1308be2301c24ad85814fcd6e75182"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_GetResult_Event",
+      "hash_string": "RIHS01_df4469854f337dfa30056f7c337f301029448963526f06f125fb63b4d20fa938"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_GetResult_Request",
+      "hash_string": "RIHS01_a384f223ac5b66ff1c744706e43dc2fb365062f333527fdda7f21249c0d6251a"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_GetResult_Response",
+      "hash_string": "RIHS01_670d8c5be2a10350d18529caae2c7b87fa2b31de348a7c7cf09ea4760c01b429"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_Goal",
+      "hash_string": "RIHS01_5a0facbd3a8cdbcac29f0b71ae319975ee14d52c58bf4c3c6b1fb87156852dbc"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_Result",
+      "hash_string": "RIHS01_74ef1f82a013d44445177cfb95026f54f1490f6bda20d5c96cc1115b04064506"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_SendGoal",
+      "hash_string": "RIHS01_5c6f119ccc14e3248dd2955961e7ee37b51cb81b27d3262da3b461fa092f1ea5"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_SendGoal_Event",
+      "hash_string": "RIHS01_cb653a3b7131434934b89668d493575196f6aa5d3ce49e641165693f906e8799"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_SendGoal_Request",
+      "hash_string": "RIHS01_7df8aab51b56a3a48b3d70dc5a062fec364be7e239720bd8253fbf9b1966a7da"
+    },
+    {
+      "type_name": "custom_interfaces/action/RotateAngle_SendGoal_Response",
+      "hash_string": "RIHS01_e6798afd71b0cc7dfc2e3eaa1be2c63680b2bf9b8ec74147fb0cb2229f7aa7f3"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

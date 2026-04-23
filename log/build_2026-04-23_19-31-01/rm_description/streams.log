@@ -1,0 +1,60 @@
+[0.023s] Invoking command in '/home/gabriel/Robotica/Robotica_APS3/build/rm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gabriel/Robotica/Robotica_APS3/src/rm_description -DCMAKE_INSTALL_PREFIX=/home/gabriel/Robotica/Robotica_APS3/install/rm_description
+[0.129s] -- The C compiler identification is GNU 13.3.0
+[0.215s] -- The CXX compiler identification is GNU 13.3.0
+[0.244s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.597s] -- Detecting CXX compiler ABI info - done
+[0.622s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.622s] -- Detecting CXX compile features
+[0.623s] -- Detecting CXX compile features - done
+[0.630s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.901s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.157s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.345s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.345s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.346s] -- Added test 'lint_cmake' to check CMake code style
+[1.347s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.349s] -- Added test 'xmllint' to check XML markup files
+[1.351s] -- Configuring done (1.3s)
+[1.353s] -- Generating done (0.0s)
+[1.355s] -- Build files have been written to: /home/gabriel/Robotica/Robotica_APS3/build/rm_description
+[1.363s] Invoked command in '/home/gabriel/Robotica/Robotica_APS3/build/rm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gabriel/Robotica/Robotica_APS3/src/rm_description -DCMAKE_INSTALL_PREFIX=/home/gabriel/Robotica/Robotica_APS3/install/rm_description
+[1.364s] Invoking command in '/home/gabriel/Robotica/Robotica_APS3/build/rm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gabriel/Robotica/Robotica_APS3/build/rm_description -- -j12 -l12
+[1.434s] Invoked command in '/home/gabriel/Robotica/Robotica_APS3/build/rm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gabriel/Robotica/Robotica_APS3/build/rm_description -- -j12 -l12
+[1.452s] Invoking command in '/home/gabriel/Robotica/Robotica_APS3/build/rm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gabriel/Robotica/Robotica_APS3/build/rm_description
+[1.464s] -- Install configuration: ""
+[1.464s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf
+[1.464s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/sensors.xacro
+[1.464s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/inertial_macros.xacro
+[1.465s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/differential_robot.xacro
+[1.465s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/wheels.xacro
+[1.465s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/gazebo_control.xacro
+[1.465s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//launch
+[1.465s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//launch/robot_simulation.py
+[1.466s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//world
+[1.466s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//world/casa_mobiliada.sdf
+[1.466s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//world/casa.sdf
+[1.466s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//config
+[1.466s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//config/gz_bridge.yaml
+[1.466s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//rviz
+[1.467s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//rviz/aps1.rviz
+[1.467s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/ament_index/resource_index/package_run_dependencies/rm_description
+[1.467s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/ament_index/resource_index/parent_prefix_path/rm_description
+[1.467s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/environment/ament_prefix_path.sh
+[1.467s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/environment/ament_prefix_path.dsv
+[1.467s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/environment/path.sh
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/environment/path.dsv
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/local_setup.bash
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/local_setup.sh
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/local_setup.zsh
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/local_setup.dsv
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/package.dsv
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/ament_index/resource_index/packages/rm_description
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/cmake/rm_descriptionConfig.cmake
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/cmake/rm_descriptionConfig-version.cmake
+[1.468s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/package.xml
+[1.470s] Invoked command in '/home/gabriel/Robotica/Robotica_APS3/build/rm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gabriel/Robotica/Robotica_APS3/build/rm_description

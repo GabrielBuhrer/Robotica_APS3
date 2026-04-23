@@ -1,0 +1,235 @@
+[0.026s] Invoking command in '/home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gabriel/Robotica/Robotica_APS3/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces
+[0.135s] -- The C compiler identification is GNU 13.3.0
+[0.238s] -- The CXX compiler identification is GNU 13.3.0
+[0.267s] -- Detecting C compiler ABI info
+[0.439s] -- Detecting C compiler ABI info - done
+[0.462s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.462s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.481s] -- Detecting CXX compiler ABI info
+[0.643s] -- Detecting CXX compiler ABI info - done
+[0.665s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.666s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.672s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.889s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.046s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.135s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.198s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.203s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[2.126s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.731s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.939s] -- Found PythonExtra: /usr/bin/python3  
+[4.552s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.608s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.646s] -- Added test 'lint_cmake' to check CMake code style
+[4.648s] -- Added test 'xmllint' to check XML markup files
+[4.651s] -- Configuring done (4.6s)
+[4.691s] -- Generating done (0.0s)
+[4.705s] -- Build files have been written to: /home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces
+[4.718s] Invoked command in '/home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gabriel/Robotica/Robotica_APS3/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces
+[4.718s] Invoking command in '/home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces -- -j12 -l12
+[4.794s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.811s] [  2%] Built target ament_cmake_python_copy_custom_interfaces
+[5.051s] [  2%] Built target custom_interfaces__rosidl_generator_type_description
+[5.072s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.087s] running egg_info
+[5.088s] creating custom_interfaces.egg-info
+[5.089s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.109s] writing custom_interfaces.egg-info/PKG-INFO
+[5.110s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[5.110s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[5.110s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[5.174s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[5.175s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[5.215s] [  8%] Built target ament_cmake_python_build_custom_interfaces_egg
+[5.567s] [  8%] Built target custom_interfaces__cpp
+[5.655s] [ 14%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/rotate_angle__functions.c.o[0m
+[5.655s] [ 14%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/rotate_angle__type_support.c.o[0m
+[5.655s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/rotate_angle__description.c.o[0m
+[5.863s] [ 20%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[5.920s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[5.940s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.941s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.945s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.945s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.945s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.946s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.306s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/rotate_angle__type_support.cpp.o[0m
+[6.529s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/rotate_angle__type_support_c.cpp.o[0m
+[6.585s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/rotate_angle__type_support.cpp.o[0m
+[6.718s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/rotate_angle__type_support.cpp.o[0m
+[6.728s] [ 52%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[6.764s] [ 55%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/rotate_angle__type_support.cpp.o[0m
+[6.779s] [ 58%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/rotate_angle__type_support.c.o[0m
+[6.830s] [ 58%] Built target custom_interfaces__rosidl_typesupport_c
+[6.936s] [ 61%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.013s] [ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[7.199s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[7.366s] [ 64%] Built target custom_interfaces__rosidl_typesupport_cpp
+[7.435s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.529s] [ 67%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[7.559s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.676s] [ 70%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[8.227s] [ 73%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.337s] [ 73%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.373s] [ 73%] Built target custom_interfaces
+[8.407s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.104s] [ 76%] Built target custom_interfaces__py
+[9.142s] [ 79%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/action/_rotate_angle_s.c.o[0m
+[9.385s] [ 82%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_py.so[0m
+[9.456s] [ 82%] Built target custom_interfaces__rosidl_generator_py
+[9.496s] [ 85%] [32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.496s] [ 91%] [32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.496s] [ 91%] [32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.659s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so[0m
+[9.665s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[9.711s] [ 97%] Built target custom_interfaces_s__rosidl_typesupport_c
+[9.727s] [ 97%] Built target custom_interfaces_s__rosidl_typesupport_introspection_c
+[9.759s] [100%] [32m[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.813s] [100%] Built target custom_interfaces_s__rosidl_typesupport_fastrtps_c
+[9.830s] Invoked command in '/home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces -- -j12 -l12
+[9.832s] Invoking command in '/home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces
+[9.847s] -- Install configuration: ""
+[9.848s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[9.848s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/action/RotateAngle.json
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/rotate_angle.h
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__type_support.h
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__struct.h
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__description.c
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__type_support.c
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__functions.h
+[9.849s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__functions.c
+[9.850s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[9.850s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[9.850s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[9.850s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[9.850s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[9.850s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[9.850s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.850s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[9.850s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[9.850s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__rosidl_typesupport_fastrtps_c.h
+[9.850s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.851s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.851s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[9.851s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[9.851s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.851s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[9.851s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[9.851s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__rosidl_typesupport_introspection_c.h
+[9.851s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__type_support.c
+[9.851s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[9.851s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.851s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[9.852s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[9.852s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[9.852s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[9.852s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.852s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[9.852s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/rotate_angle.hpp
+[9.852s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[9.852s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__type_support.hpp
+[9.852s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__builder.hpp
+[9.852s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__struct.hpp
+[9.853s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__traits.hpp
+[9.853s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[9.853s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[9.853s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.853s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[9.853s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[9.853s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[9.853s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps
+[9.853s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.853s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.853s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[9.853s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[9.854s] -- Up-to-date: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[9.854s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__type_support.cpp
+[9.854s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/rotate_angle__rosidl_typesupport_introspection_cpp.hpp
+[9.854s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.854s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.854s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[9.855s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.855s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[9.855s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[9.855s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info
+[9.855s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.855s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[9.855s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.855s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[9.855s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/__init__.py
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/action
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/action/__init__.py
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/action/_rotate_angle_s.c
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/action/_rotate_angle.py
+[9.856s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.857s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.921s] Listing '/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces'...
+[9.921s] Compiling '/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/__init__.py'...
+[9.921s] Listing '/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/action'...
+[9.921s] Compiling '/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/action/__init__.py'...
+[9.921s] Compiling '/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/action/_rotate_angle.py'...
+[9.929s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.929s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.929s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.930s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[9.930s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so
+[9.930s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so" to ""
+[9.930s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[9.931s] -- Set non-toolchain portion of runtime path of "/home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[9.931s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/action/RotateAngle.idl
+[9.931s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/action/RotateAngle.action
+[9.931s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[9.931s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[9.931s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[9.931s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[9.932s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[9.932s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[9.932s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[9.933s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[9.933s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[9.933s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[9.933s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/package.dsv
+[9.933s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[9.933s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[9.934s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.934s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.934s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.934s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.934s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.934s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[9.934s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.935s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[9.935s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.935s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.935s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.935s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.935s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[9.935s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.936s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[9.936s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.936s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.936s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.936s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.936s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.936s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.937s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.937s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.937s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[9.937s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[9.937s] -- Installing: /home/gabriel/Robotica/Robotica_APS3/install/custom_interfaces/share/custom_interfaces/package.xml
+[9.939s] Invoked command in '/home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization:/home/gabriel/Robotica/Robotica_APS3/install/patrol_bot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gabriel/Robotica/Robotica_APS3/build/custom_interfaces

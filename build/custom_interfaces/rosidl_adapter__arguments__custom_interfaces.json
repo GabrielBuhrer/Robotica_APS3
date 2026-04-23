@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/gabriel/Robotica/Robotica_APS3/src/custom_interfaces:action/RotateAngle.action"
+  ]
+}

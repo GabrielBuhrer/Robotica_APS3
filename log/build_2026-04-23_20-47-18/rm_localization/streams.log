@@ -1,0 +1,21 @@
+[3.155s] Invoking command in '/home/gabriel/Robotica/Robotica_APS3/src/rm_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gabriel/Robotica/Robotica_APS3/build/rm_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rm_localization build --build-base /home/gabriel/Robotica/Robotica_APS3/build/rm_localization/build install --record /home/gabriel/Robotica/Robotica_APS3/build/rm_localization/install.log --single-version-externally-managed install_data
+[4.154s] running egg_info
+[4.234s] writing ../../build/rm_localization/rm_localization.egg-info/PKG-INFO
+[4.235s] writing dependency_links to ../../build/rm_localization/rm_localization.egg-info/dependency_links.txt
+[4.236s] writing requirements to ../../build/rm_localization/rm_localization.egg-info/requires.txt
+[4.236s] writing top-level names to ../../build/rm_localization/rm_localization.egg-info/top_level.txt
+[4.371s] reading manifest file '../../build/rm_localization/rm_localization.egg-info/SOURCES.txt'
+[4.385s] writing manifest file '../../build/rm_localization/rm_localization.egg-info/SOURCES.txt'
+[4.386s] running build
+[4.387s] running build_py
+[4.388s] running install
+[4.408s] running install_lib
+[4.482s] running install_data
+[4.482s] copying maps/house_map.yaml -> /home/gabriel/Robotica/Robotica_APS3/install/rm_localization/share/rm_localization/maps
+[4.483s] copying maps/house_map.pgm -> /home/gabriel/Robotica/Robotica_APS3/install/rm_localization/share/rm_localization/maps
+[4.483s] running install_egg_info
+[4.544s] removing '/home/gabriel/Robotica/Robotica_APS3/install/rm_localization/lib/python3.12/site-packages/rm_localization-0.0.0-py3.12.egg-info' (and everything under it)
+[4.545s] Copying ../../build/rm_localization/rm_localization.egg-info to /home/gabriel/Robotica/Robotica_APS3/install/rm_localization/lib/python3.12/site-packages/rm_localization-0.0.0-py3.12.egg-info
+[4.547s] running install_scripts
+[5.014s] writing list of installed files to '/home/gabriel/Robotica/Robotica_APS3/build/rm_localization/install.log'
+[5.163s] Invoked command in '/home/gabriel/Robotica/Robotica_APS3/src/rm_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gabriel/Robotica/Robotica_APS3/build/rm_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gabriel/Robotica/Robotica_APS3/install/rm_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rm_localization build --build-base /home/gabriel/Robotica/Robotica_APS3/build/rm_localization/build install --record /home/gabriel/Robotica/Robotica_APS3/build/rm_localization/install.log --single-version-externally-managed install_data

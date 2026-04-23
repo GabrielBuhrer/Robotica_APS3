@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/patrol_bot/patrol_bot.egg-info
+writing ../../build/patrol_bot/patrol_bot.egg-info/PKG-INFO
+writing dependency_links to ../../build/patrol_bot/patrol_bot.egg-info/dependency_links.txt
+writing entry points to ../../build/patrol_bot/patrol_bot.egg-info/entry_points.txt
+writing requirements to ../../build/patrol_bot/patrol_bot.egg-info/requires.txt
+writing top-level names to ../../build/patrol_bot/patrol_bot.egg-info/top_level.txt
+writing manifest file '../../build/patrol_bot/patrol_bot.egg-info/SOURCES.txt'
+reading manifest file '../../build/patrol_bot/patrol_bot.egg-info/SOURCES.txt'
+writing manifest file '../../build/patrol_bot/patrol_bot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/build
+creating /home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/build/lib
+creating /home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/build/lib/patrol_bot
+copying patrol_bot/patrol_node.py -> /home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/build/lib/patrol_bot
+copying patrol_bot/__init__.py -> /home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/build/lib/patrol_bot
+copying patrol_bot/rotate_node.py -> /home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/build/lib/patrol_bot
+running install
+running install_lib
+creating /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/python3.12/site-packages/patrol_bot
+copying /home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/build/lib/patrol_bot/patrol_node.py -> /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/python3.12/site-packages/patrol_bot
+copying /home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/build/lib/patrol_bot/__init__.py -> /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/python3.12/site-packages/patrol_bot
+copying /home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/build/lib/patrol_bot/rotate_node.py -> /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/python3.12/site-packages/patrol_bot
+byte-compiling /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/python3.12/site-packages/patrol_bot/patrol_node.py to patrol_node.cpython-312.pyc
+byte-compiling /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/python3.12/site-packages/patrol_bot/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/python3.12/site-packages/patrol_bot/rotate_node.py to rotate_node.cpython-312.pyc
+running install_data
+creating /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/share/ament_index
+creating /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/share/ament_index/resource_index
+creating /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/share/ament_index/resource_index/packages
+copying resource/patrol_bot -> /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/share/ament_index/resource_index/packages
+copying package.xml -> /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/share/patrol_bot
+creating /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/share/patrol_bot/launch
+copying launch/patrol_launch.py -> /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/share/patrol_bot/launch
+running install_egg_info
+Copying ../../build/patrol_bot/patrol_bot.egg-info to /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/python3.12/site-packages/patrol_bot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing patrol_node script to /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/patrol_bot
+Installing rotate_node script to /home/gabriel/Robotica/Robotica_APS3/install/patrol_bot/lib/patrol_bot
+writing list of installed files to '/home/gabriel/Robotica/Robotica_APS3/build/patrol_bot/install.log'

@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/gabriel/Robotica/Robotica_APS3/build/rm_description
+-- Install configuration: ""
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/sensors.xacro
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/inertial_macros.xacro
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/differential_robot.xacro
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/wheels.xacro
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//urdf/gazebo_control.xacro
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//launch
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//launch/robot_simulation.py
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//world
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//world/casa_mobiliada.sdf
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//world/casa.sdf
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//config
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//config/gz_bridge.yaml
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//rviz
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description//rviz/aps1.rviz
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/ament_index/resource_index/package_run_dependencies/rm_description
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/ament_index/resource_index/parent_prefix_path/rm_description
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/environment/ament_prefix_path.sh
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/environment/ament_prefix_path.dsv
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/environment/path.sh
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/environment/path.dsv
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/local_setup.bash
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/local_setup.sh
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/local_setup.zsh
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/local_setup.dsv
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/package.dsv
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/ament_index/resource_index/packages/rm_description
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/cmake/rm_descriptionConfig.cmake
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/cmake/rm_descriptionConfig-version.cmake
+-- Installing: /home/gabriel/Robotica/Robotica_APS3/install/rm_description/share/rm_description/package.xml
