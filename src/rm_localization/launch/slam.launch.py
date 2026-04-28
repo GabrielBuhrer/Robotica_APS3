@@ -14,7 +14,7 @@ def generate_launch_description():
     slam_yaml = os.path.join(
         pkg_share,
         'config',
-        'slam_toolbox.yaml'
+        'slam_config.yaml'
     )
 
     slam_launch_file = os.path.join(
